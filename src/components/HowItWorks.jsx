@@ -101,3 +101,4 @@ export default function HowItWorks({ t, onNavigate }) {
     </section>
   );
 }
+

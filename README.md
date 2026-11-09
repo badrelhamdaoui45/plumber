@@ -107,3 +107,4 @@ Open [http://localhost:3000](http://localhost:3000) in your web browser.
 npm run build
 ```
 The optimized static output is generated in the `dist/` directory, ready to deploy to Netlify, Vercel, Cloudflare Pages, or any static host.
+

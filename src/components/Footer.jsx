@@ -112,3 +112,4 @@ export default function Footer({ t, onNavigate, onOpenModal }) {
     </footer>
   );
 }
+

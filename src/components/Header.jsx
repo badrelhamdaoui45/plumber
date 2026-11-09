@@ -284,3 +284,4 @@ export default function Header({ lang, setLang, t, onNavigate }) {
     </header>
   );
 }
+
