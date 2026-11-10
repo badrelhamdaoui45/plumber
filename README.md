@@ -106,5 +106,21 @@ Open [http://localhost:3000](http://localhost:3000) in your web browser.
 ```bash
 npm run build
 ```
-The optimized static output is generated in the `dist/` directory, ready to deploy to Netlify, Vercel, Cloudflare Pages, or any static host.
+### Deploying to Vercel (Recommended)
+
+#### Option 1: Via Vercel Dashboard (GitHub Integration)
+1. Push your code to GitHub:
+   ```bash
+   git push -u origin main
+   ```
+2. Open **[vercel.com/new](https://vercel.com/new)**.
+3. Import your repository `badrelhamdaoui45/plumber`.
+4. Click **Deploy**. Vercel will automatically build from `dist/` and provide a live URL with automatic continuous deployment and free SSL.
+
+#### Option 2: Via Vercel CLI
+Run the following in the project root:
+```bash
+npx vercel
+```
+Follow the interactive prompts to deploy directly from your local terminal.
 
